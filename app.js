@@ -7,8 +7,9 @@ const mongoose = require('mongoose');
 
 const thoughtRoutes = require('./routes/api/thoughts');
 const userRoutes = require('./routes/api/users');
-const { db } = require('./models/thought');
-const { db } = require('./models/user');
+const db = require('./config/connection');
+// const { db } = require('./models/thought');
+// const { db } = require('./models/user');
 
 mongoose.connect('mongodb://localhost:3003/' , { useNewUrlParser: true, useUnifiedTopology: true });
 
