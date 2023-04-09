@@ -30,6 +30,7 @@ In this project I was able to practice my skills in MangoDB and Insomnia. I was 
 - Mongoose
 - Express.js
 - JavaScript Date Library
+- Morgan
 
 ## Usage
 To use this REPO:
@@ -38,6 +39,7 @@ To use this REPO:
    
 ## Features
 - Mongoose
+- Morgan 
 
 ## Credits
 - UC Berkeley Extension 2023
@@ -45,6 +47,7 @@ To use this REPO:
 - [Stackoverflow](https://stackoverflow.com/)
 - MongoDB
 - Insomnia
+- [Morgan](https://www.npmjs.com/package/morgan) 
 
 
 ## License

@@ -1,0 +1,17 @@
+{
+    "name": "nosql-social-media-network",
+    "version": "1.0.0",
+    "main": "app.js",
+
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js"
+    },
+    "author":"",
+    "license": "MIT",
+    "dependencies": {
+        "mongoose": "^4.13.7",
+        "morgan": "^1.10.0"
+    }
+
+}
