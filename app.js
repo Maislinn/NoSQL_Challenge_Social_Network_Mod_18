@@ -4,7 +4,7 @@ const app = express();
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 
-const thoughtRoutes = require('./routes/thoughts');
+const thoughtRoutes = require('./routes/api/thoughts');
 const userRoutes = require('./routes/users');
 
 mongoose.connect('mongodb://localhost:3003/' , { useNewUrlParser: true, useUnifiedTopology: true });
