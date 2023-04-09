@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express();
+//const morgan = require('morgan');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 
@@ -12,8 +13,8 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 // Routes which should handle requests
-app.use('/api/thoughts', thoughtRoutes);
-app.use('/api/users', userRoutes);
+// app.use('/api/thoughts', thoughtRoutes);
+// app.use('/api/users', userRoutes);
 
 // Handle errors
 app.use((req, res, next) => {
