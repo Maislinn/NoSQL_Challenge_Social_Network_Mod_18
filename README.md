@@ -4,6 +4,7 @@
 ![license](https://img.shields.io/badge/license-MIT-yellow)
 
 ## Description
+```text
 AS A social media startup I WANT an API for my social network that uses a NoSQL database SO THAT my website can handle large amounts of unstructured data
 GIVEN a social network API
 WHEN I enter the command to invoke the application
@@ -17,6 +18,7 @@ THEN I am able to successfully create and delete reactions to thoughts and add a
 
 In this project I was able to practice my skills in MangoDB and Insomnia. I was able to practice skills to build and structure API Routes. 
 
+```
 ## Table of Contents
  * [Installation](#installation)
  * [Usage](#usage)
@@ -33,9 +35,7 @@ In this project I was able to practice my skills in MangoDB and Insomnia. I was 
 - Morgan
 
 ## Usage
-To use this REPO:
-   1. Open the integrated terminal window
-   2. Run your installations with NPM I
+Please view my demo video in asset folder to see a live demo of this application in insomnia
    
 ## Features
 - Mongoose
