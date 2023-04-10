@@ -48,6 +48,9 @@ Please view my demo video in asset folder to see a live demo of this application
 - MongoDB
 - Insomnia
 - [Morgan](https://www.npmjs.com/package/morgan) 
+- AakBCS Learning Assistant
+- TA's 
+- Fellow students
 
 
 ## License
